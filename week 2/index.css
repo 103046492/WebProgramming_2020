@@ -2,13 +2,49 @@ html, body {
     margin: 0;
 }
 .header {
-    background-color: rgb(78, 160, 1);
+    background-color: #4CAF50;
     font-family: 'Oswald', sans-serif;
+    font-weight: 700;
     text-align: center;
     padding: 100px
 }
 
-.header h1 {
+.header h1{
     margin: 0;
     font-size: 50px;
+    color: white;
+}
+
+.header2 h2{
+    font-size: 30px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 700;
+}
+
+.paragraph {
+    font-size: 20px;
+    font-family: 'Oswald', sans-serif;
+    font-weight: 400;
+    padding: 40px;
+}
+
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 25px;
+    font-family: 'Oswald', sans-serif;
+    margin: 4px 2px;
+    cursor: pointer;
+  }
+
+  .bottomheader {
+    background-color: lightgray;
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 100px
 }
