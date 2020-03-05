@@ -1,0 +1,14 @@
+html, body {
+    margin: 0;
+}
+.header {
+    background-color: rgb(78, 160, 1);
+    font-family: 'Oswald', sans-serif;
+    text-align: center;
+    padding: 100px
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 50px;
+}
