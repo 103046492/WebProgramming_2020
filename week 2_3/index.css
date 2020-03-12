@@ -1,0 +1,80 @@
+.headline-box {
+    border-bottom: dotted;
+    background-color: white;
+}
+
+.headline-etc-box {
+    font-size: 0px;
+
+
+}
+
+.date-time {
+    display: inline-block;
+    width: 15%; 
+    font-size: 16px;
+    text-align: right;
+
+}
+
+.likes {
+    display: inline-block;
+    width: 85%;
+    font-size: 16px;
+    color: green;
+
+}
+
+.headline {
+    font-size: 32px;
+    text-align: center;
+    margin: 40px;
+
+}
+
+
+.dropdown-box {
+    font-size: 0;
+}
+
+.dropdown {
+    display: inline-block;
+    width: 85%;
+    font-size: 30px;
+    text-align: left;
+    background-color: white;
+    height: 116px;
+}
+
+.button {
+    display: inline-block;
+    width: 15%;
+    font-size: 30px;
+    text-align: center;
+    background-color: indigo;
+    height: 116px;
+}
+
+.list-box {
+    background-color: indigo;
+    font-size: 0; 
+}
+.date-box {
+    display: inline-block;
+    width: 30%;
+    font-size: 16px;
+    text-align: center;
+    padding: 40px 0px;
+}
+
+.list-box .desc {
+    display: inline-block;
+    width: 70%;
+    font-size: 16px;
+}
+.list-box .background {
+    background-color: violet;
+}
+.background {
+    background-color: rgba(54, 24, 54, 0.603);
+}
