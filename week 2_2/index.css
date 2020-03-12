@@ -1,20 +1,22 @@
-div {
+.box{
+
     background-color:white;
     height: 235px;
     width: 300px;
     padding: 50px;
     margin: 20px;
     box-shadow: 5px 5px #888888;
+  
   }
   input[type=text], select {
     width: 100%;
     padding: 12px 20px;
-    margin: 20px 0;
+    margin: 15px 0;
     display: inline-block;
     border: whitesmoke;
     border-radius: 4px;
     box-sizing: border-box;
-    
+    background-color: rgb(240, 235, 235)
   }
   
   input[type=Login] {
@@ -22,7 +24,7 @@ div {
     background-color: #4CAF50;
     color: white;
     padding: 14px 0px;
-    margin: 20px 0;
+    margin: 5px 0;
     display: inline-block;
     border: none;
     border-radius: 4px;
@@ -38,4 +40,14 @@ div {
     justify-content: center;
     align-items: center;
     height: 100vh;
+  }
+.inputcolor {
+  color: rgba(255, 255, 255, 0.815);
+}
+.p1 {
+  text-align: center;
+  color: #888888;
+}
+.hyperlink {
+  color: #4CAF50;
 }
