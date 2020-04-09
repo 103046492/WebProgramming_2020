@@ -1,10 +1,15 @@
+.main-heading {
+    font-family: 'Pacifico';
+    color: rgba(255, 255, 255, 0.87);
+    background-color: #433B4F;
+    margin: 0px;
+}
 .container-main {
-    height: 100vh;
-    width: 100vh;
     text-align: center;
     margin: auto;
     width: 645px;
     border: thin;
+    background-color: white;
 }
 
 .headline-box {
@@ -34,32 +39,34 @@
 }
 
 .headline {
-    font-size: 32px;
+    font-size: 28px;
     text-align: center;
     margin: 40px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 
 .dropdown-box {
-    font-size: 0;
+    display: flex;
 }
 
 .dropdown {
-    display: inline-block;
-    width: 85%;
+    width: 80%;
     font-size: 30px;
     text-align: left;
     background-color: white;
-    height: 116px;
+    font-family: 'Ubuntu', sans-serif;
+    padding-top: 40px;
 }
 
 .button {
-    display: inline-block;
-    width: 15%;
-    font-size: 30px;
+    flex-grow: 1;
+    width: 20%;
+    font-size: 100px;
     text-align: center;
+    color: white;
     background-color: #B77DFD;
-    height: 116px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .list-box {
@@ -72,12 +79,17 @@
     font-size: 16px;
     text-align: center;
     padding: 40px 0px;
+    color: white;
 }
 
 .list-box .desc {
     display: inline-block;
     width: 70%;
     font-size: 16px;
+    margin: 0px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
 }
 
 .list-box2 {
@@ -89,12 +101,18 @@
     display: inline-block;
     width: 70%;
     font-size: 16px;
+    margin: 0px;
+    color: white;
+    font-family: 'Ubuntu', sans-serif;
+    text-align: left;
 }
 
 .contents-box {
     font-size: 0;
-    display: block;
+    display: flex;
     background-color: #1D1724;   
+    height: 180px;
+    
 }
 
 .backgroundcolor {
@@ -109,6 +127,16 @@
 .end-contents {
     font-size: 20px;
     text-align: center;
-    margin: 40px;
+    margin: 0px;
     color: white;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.day {
+    font-size: 36px;
+    font-family: 'Ubuntu', sans-serif;
+}
+.month {
+    font-size: 16px;
+    font-family: 'Ubuntu', sans-serif;
 }
