@@ -1,0 +1,52 @@
+.container{
+    display: inline-block;
+    justify-content: center;
+    align-content: center;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100vh;
+    background-color: #3e4c57;
+}
+
+.fb-button{
+    display: inline-block;
+    padding-left: 75px;
+    background-color: #3d5a94;
+}
+
+.twitter-button{
+    display: inline-block;
+    padding-right: 75px;
+    background-color: #56acee;
+}
+
+.fn-input{
+    display: inline-block;
+    padding-left: 75px;
+    margin: 1px;
+}
+
+.ln-input{
+    display: inline-block;
+    padding-right: 75px;
+    margin: 1px;
+}
+
+.email-input{
+    display: inline-block;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.pw-input{
+    display: inline-block;
+    padding-left: 75px;
+    padding-right: 75px;
+}
+
+.create-button{
+    display: inline-block;
+    padding-left: 75px;
+    padding-right: 75px;
+    background-color: #47a16e;
+}
